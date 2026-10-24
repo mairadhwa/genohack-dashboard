@@ -1,0 +1,37 @@
+{
+ "F441Y": {
+  "Km_lac": 26.3,
+  "Ki_gal": 6,
+  "kcat_lac": 2.67,
+  "kcat_gos": 60,
+  "Km_gos": 220,
+  "K_acc": 18.904364002605156,
+  "Ea_sel": 26000,
+  "pH_opt_sel": 6,
+  "pH_width_sel": 1.4,
+  "Ea_cat": 48000,
+  "Ea_deact": 213000,
+  "kd_ref": 0.009627044174443685,
+  "T_ref": 353.15,
+  "pH_opt": 6,
+  "pH_width": 1.1
+ },
+ "WT": {
+  "Km_lac": 26.3,
+  "Ki_gal": 6,
+  "kcat_lac": 2.67,
+  "kcat_gos": 60,
+  "Km_gos": 220,
+  "K_acc": 60.53439103802864,
+  "Ea_sel": 26000,
+  "pH_opt_sel": 6,
+  "pH_width_sel": 1.4,
+  "Ea_cat": 48000,
+  "Ea_deact": 213000,
+  "kd_ref": 0.009627044174443685,
+  "T_ref": 353.15,
+  "pH_opt": 6,
+  "pH_width": 1.1
+ },
+ "enzyme_mM_per_U_mL": 0.0008050355598023134
+}

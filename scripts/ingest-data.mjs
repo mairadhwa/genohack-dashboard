@@ -1,0 +1,149 @@
+/**
+ * Ingest the research outputs in ../gos (hasil/ + data/) into the dashboard.
+ *
+ * Produces:
+ *   src/data/*.json            static datasets bundled into the frontend
+ *   supabase/seed.sql          INSERT statements for the reference tables
+ *
+ * Run:  npm run ingest   (re-run whenever the Python pipeline regenerates gos/hasil)
+ */
+import fs from "node:fs";
+import path from "node:path";
+import Papa from "papaparse";
+
+const ROOT = path.resolve(import.meta.dirname, "..");
+const GOS = path.resolve(ROOT, process.argv[2] ?? "../gos");
+const OUT = path.join(ROOT, "src", "data");
+fs.mkdirSync(OUT, { recursive: true });
+fs.mkdirSync(path.join(ROOT, "supabase"), { recursive: true });
+
+const read = (rel) =>
+  Papa.parse(fs.readFileSync(path.join(GOS, rel), "utf8").trim(), {
+    header: true,
+    dynamicTyping: true,
+    skipEmptyLines: true,
+  }).data;
+
+const write = (name, data) => {
+  fs.writeFileSync(path.join(OUT, name), JSON.stringify(data, null, 1));
+  console.log(`  src/data/${name}  (${Array.isArray(data) ? data.length + " rows" : "object"})`);
+};
+
+// --- 108 grid combinations -------------------------------------------------
+const grid = read("hasil/grid_F441Y.csv").map((r) => ({
+  lactose_g_L: r.laktosa_g_L,
+  temperature_C: r.suhu_C,
+  pH: r.pH,
+  yield_pct: r.rendemen_pct,
+  harvest_h: r.waktu_h,
+  gos_g_L: r.GOS_g_L,
+  productivity_g_L_h: r.produktivitas_g_L_h,
+}));
+// Grid is server-only (never bundled for the browser): src/server/data/grid.json
+fs.mkdirSync(path.join(ROOT, "src", "server", "data"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "src", "server", "data", "grid.json"), JSON.stringify(grid, null, 1));
+console.log(`  src/server/data/grid.json  (${grid.length} rows, server-only)`);
+
+// --- Yield map: lactose (rows) x temperature (columns), pH 6.0 -------------
+const mapRaw = Papa.parse(fs.readFileSync(path.join(GOS, "hasil/peta_rendemen_F441Y.csv"), "utf8").trim(), {
+  skipEmptyLines: true,
+}).data;
+const temps = mapRaw[0].slice(1).map(Number);
+const yieldMap = [];
+for (const row of mapRaw.slice(1)) {
+  const lac = Number(row[0]);
+  row.slice(1).forEach((v, i) => {
+    yieldMap.push({ lactose_g_L: lac, temperature_C: temps[i], yield_pct: v === "" ? null : Number(v) });
+  });
+}
+write("yield-map.json", yieldMap);
+
+// --- Peak & late-harvest losses (4 reference scenarios) --------------------
+const scenarios = read("hasil/puncak_dan_rugi_telat_F441Y.csv").map((r) => ({
+  scenario: r.kondisi,
+  lactose_g_L: r.laktosa_g_L,
+  temperature_C: r.suhu_C,
+  pH: r.pH,
+  peak_yield_pct: r.rendemen_puncak_pct,
+  peak_time_h: r.waktu_puncak_h,
+  peak_gos_g_L: r.GOS_puncak_g_L,
+  productivity_g_L_h: r.produktivitas_g_L_h,
+  enzyme_remaining_pct: r.enzim_sisa_pct,
+  loss_6h_pts: r.rugi_telat_6j_poin,
+  loss_12h_pts: r.rugi_telat_12j_poin,
+  loss_24h_pts: r.rugi_telat_24j_poin,
+  note: r.catatan,
+}));
+write("scenarios.json", scenarios);
+
+// --- Operating window ------------------------------------------------------
+write(
+  "operating-window.json",
+  read("hasil/jendela_operasi_F441Y.csv").map((r) => ({
+    variable: r.variabel,
+    optimum: r.optimum,
+    lower: r.batas_bawah,
+    upper: r.batas_atas,
+  })),
+);
+
+// --- kcat_gos sensitivity --------------------------------------------------
+write(
+  "sensitivity.json",
+  read("hasil/kepekaan_kcat_gos.csv").map((r) => ({
+    kcat_gos: r.kcat_gos,
+    K_acc_WT: r.K_acc_WT,
+    K_acc_F441Y: r.K_acc_F441Y,
+    drop_pct: r.turun_pct,
+    crosscheck_pred_pct: r.prediksi_uji_silang,
+    error_vs_wu_pct: r.selisih_vs_Wu_pct,
+    harvest_F441Y_h: r.panen_F441Y_h,
+  })),
+);
+
+// --- Parameter sets + enzyme dose ------------------------------------------
+const params = (f) => Object.fromEntries(read(f).map((r) => [r[""], r.nilai]));
+const dose = params("hasil/dosis_enzim.csv");
+write("parameters.json", {
+  F441Y: params("hasil/parameter_F441Y.csv"),
+  WT: params("hasil/parameter_WT.csv"),
+  enzyme_mM_per_U_mL: dose.enzim_mM_9_U_mL / 9,
+});
+
+// --- Literature dataset ----------------------------------------------------
+const lit = read("data/gos_literature_dataset.csv");
+write("literature.json", lit);
+
+// --- Reference trajectories (used only by scripts/validate-model.ts) -------
+const curves = read("hasil/kurva_waktu_F441Y.csv");
+fs.writeFileSync(path.join(ROOT, "scripts", "reference-curves.json"), JSON.stringify(curves));
+console.log(`  scripts/reference-curves.json  (${curves.length} rows)`);
+
+// --- Supabase seed ---------------------------------------------------------
+const q = (v) => (v === null || v === undefined || v === "" ? "null" : typeof v === "number" ? String(v) : `'${String(v).replace(/'/g, "''")}'`);
+const insert = (table, cols, rows) =>
+  `insert into public.${table} (${cols.join(", ")}) values\n` +
+  rows.map((r) => `  (${cols.map((c) => q(r[c])).join(", ")})`).join(",\n") +
+  "\non conflict do nothing;\n"; // safe to re-run
+
+let sql = `-- Generated by scripts/ingest-data.mjs from gos/hasil. Do not edit by hand.\n-- Run AFTER supabase/migrations/20261025000000_init.sql. Safe to re-run.\n-- grid_combinations is the hidden, server-only reference table.\n\n`;
+sql += insert("grid_combinations", Object.keys(grid[0]), grid) + "\n";
+sql += insert("yield_map", ["lactose_g_L", "temperature_C", "yield_pct"], yieldMap.filter((r) => r.yield_pct !== null)) + "\n";
+sql += insert("harvest_scenarios", Object.keys(scenarios[0]), scenarios) + "\n";
+sql += insert("validation_benchmarks", ["label", "kind", "lactose_g_L", "temperature_C", "pH", "enzyme_U_mL", "predicted_pct", "published_pct", "source"], [
+  { label: "Wild-type calibration", kind: "calibration", lactose_g_L: 600, temperature_C: 80, pH: 6, enzyme_U_mL: 3.6, predicted_pct: 52.5, published_pct: 52.5, source: "Park et al. 2008" },
+  { label: "F441Y anchor", kind: "anchor", lactose_g_L: 700, temperature_C: 75, pH: 6, enzyme_U_mL: 9, predicted_pct: 61.0, published_pct: 61.0, source: "Sun et al. 2014" },
+  { label: "Independent cross-check (WT)", kind: "independent", lactose_g_L: 700, temperature_C: 75, pH: 6, enzyme_U_mL: 9, predicted_pct: 52.7, published_pct: 50.9, source: "Wu et al. 2013" },
+]) + "\n";
+// source column -> [target column, numeric?]. Non-numeric text such as "~62" becomes null in numeric columns.
+const litMap = {
+  id: ["ref_id", false], enzim_sumber: ["enzyme_source", false], substrat: ["substrate", false],
+  laktosa_awal_g_L: ["lactose_g_L", true], suhu_C: ["temperature_C", true], pH: ["pH", true],
+  GOS_yield_pct_w_w: ["yield_pct", true], referensi: ["reference", false], status_verifikasi: ["verification_status", false],
+};
+const litRows = lit.map((r) =>
+  Object.fromEntries(Object.entries(litMap).map(([src, [dst, num]]) => [dst, num ? (typeof r[src] === "number" ? r[src] : null) : r[src] == null ? null : String(r[src])])),
+);
+sql += insert("literature_dataset", Object.values(litMap).map(([d]) => d), litRows) + "\n";
+fs.writeFileSync(path.join(ROOT, "supabase", "seed.sql"), sql);
+console.log("  supabase/seed.sql");

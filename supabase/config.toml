@@ -1,0 +1,18 @@
+# Supabase CLI settings (only used with `supabase start` / `supabase link` + `supabase db push`).
+# On a hosted project, set the same auth options in the dashboard:
+# Authentication → Providers → Email.
+project_id = "genohack-dashboard"
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://*.vercel.app"]
+# Paid B2B package: no self sign-up. Admins create accounts (see README).
+enable_signup = false
+
+[auth.email]
+enable_signup = false
+enable_confirmations = false
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]

@@ -1,0 +1,20 @@
+[
+ {
+  "variable": "laktosa awal (g/L)",
+  "optimum": 800,
+  "lower": 500,
+  "upper": 800
+ },
+ {
+  "variable": "suhu (C)",
+  "optimum": 85,
+  "lower": 70,
+  "upper": 85
+ },
+ {
+  "variable": "pH",
+  "optimum": 6,
+  "lower": 5,
+  "upper": 6.5
+ }
+]

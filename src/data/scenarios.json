@@ -1,0 +1,62 @@
+[
+ {
+  "scenario": "jangkar_terbitan",
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 6,
+  "peak_yield_pct": 61.00075187870897,
+  "peak_time_h": 25.617790132036138,
+  "peak_gos_g_L": 427.0052631509628,
+  "productivity_g_L_h": 16.66830983274293,
+  "enzyme_remaining_pct": 91.66703890055004,
+  "loss_6h_pts": 0.9525759408598873,
+  "loss_12h_pts": 2.557746603227784,
+  "loss_24h_pts": 5.611935279992821,
+  "note": "Sun dkk. 2014 - satu-satunya titik dengan padanan terbitan"
+ },
+ {
+  "scenario": "optimum_model",
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "pH": 6,
+  "peak_yield_pct": 63.02412169839807,
+  "peak_time_h": 23.416261292564283,
+  "peak_gos_g_L": 504.1929735871846,
+  "productivity_g_L_h": 21.531745281100385,
+  "enzyme_remaining_pct": 53.75880997359602,
+  "loss_6h_pts": 0.6748115122998186,
+  "loss_12h_pts": 1.7076730127016262,
+  "loss_24h_pts": 3.4270417964525777,
+  "note": "optimum pencarian grid - ekstrapolasi di tepi grid"
+ },
+ {
+  "scenario": "batas_bawah_jendela",
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 6,
+  "peak_yield_pct": 58.091358500614234,
+  "peak_time_h": 23.116052814454484,
+  "peak_gos_g_L": 290.45679250307114,
+  "productivity_g_L_h": 12.56515525528858,
+  "enzyme_remaining_pct": 97.34880740464172,
+  "loss_6h_pts": 1.0950381761173489,
+  "loss_12h_pts": 2.9744905724290476,
+  "loss_24h_pts": 6.622162892242628,
+  "note": "sudut bawah jendela operasi >= 95% maksimum"
+ },
+ {
+  "scenario": "luar_jendela_dingin",
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 6,
+  "peak_yield_pct": 57.153521682907325,
+  "peak_time_h": 29.570535093815153,
+  "peak_gos_g_L": 285.76760841453665,
+  "productivity_g_L_h": 9.663930920015938,
+  "enzyme_remaining_pct": 98.86681666629714,
+  "loss_6h_pts": 0.7362776932876471,
+  "loss_12h_pts": 2.140794569195293,
+  "loss_24h_pts": 5.16419290442488,
+  "note": "pembanding: di luar jendela, untuk menunjukkan kerugiannya"
+ }
+]

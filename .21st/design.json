@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "project": {
+    "name": "genohack-dashboard",
+    "productType": null,
+    "stack": [
+      "nextjs",
+      "react",
+      "shadcn",
+      "tailwind-v4"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "src/app/globals.css"
+    ],
+    "components": [
+      "src/components/ui"
+    ],
+    "assets": [],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {
+      "--color-ink-950": {
+        "value": "#0a192f",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-900": {
+        "value": "#112240",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-800": {
+        "value": "#1d2d50",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-700": {
+        "value": "#233554",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-300": {
+        "value": "#8892b0",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-100": {
+        "value": "#ccd6f6",
+        "source": "src/app/globals.css"
+      },
+      "--color-brand": {
+        "value": "#0070f3",
+        "source": "src/app/globals.css"
+      },
+      "--color-brand-600": {
+        "value": "#005fd1",
+        "source": "src/app/globals.css"
+      },
+      "--color-brand-50": {
+        "value": "#eaf3ff",
+        "source": "src/app/globals.css"
+      },
+      "--color-mint": {
+        "value": "#64ffda",
+        "source": "src/app/globals.css"
+      },
+      "--color-mint-600": {
+        "value": "#0e9f84",
+        "source": "src/app/globals.css"
+      },
+      "--color-surface": {
+        "value": "#f4f7fb",
+        "source": "src/app/globals.css"
+      },
+      "--color-card": {
+        "value": "#ffffff",
+        "source": "src/app/globals.css"
+      },
+      "--color-line": {
+        "value": "#e3e9f2",
+        "source": "src/app/globals.css"
+      },
+      "--color-text": {
+        "value": "#0b1b33",
+        "source": "src/app/globals.css"
+      },
+      "--color-muted": {
+        "value": "#5b6b85",
+        "source": "src/app/globals.css"
+      },
+      "--color-ok": {
+        "value": "#0e9f6e",
+        "source": "src/app/globals.css"
+      },
+      "--color-warn": {
+        "value": "#d97706",
+        "source": "src/app/globals.css"
+      },
+      "--color-bad": {
+        "value": "#dc2626",
+        "source": "src/app/globals.css"
+      }
+    },
+    "typography": {
+      "--font-sans": {
+        "value": "var(--font-inter), ui-sans-serif, system-ui, sans-serif",
+        "source": "src/app/globals.css"
+      },
+      "--font-mono": {
+        "value": "var(--font-jetbrains), ui-monospace, monospace",
+        "source": "src/app/globals.css"
+      }
+    },
+    "spacing": {},
+    "radius": {},
+    "shadows": {
+      "--shadow-card": {
+        "value": "0 1px 2px rgba(10, 25, 47, 0.04), 0 8px 24px -12px rgba(10, 25, 47, 0.12)",
+        "source": "src/app/globals.css"
+      },
+      "--shadow-glow": {
+        "value": "0 0 0 1px rgba(100, 255, 218, 0.12), 0 20px 50px -20px rgba(0, 112, 243, 0.45)",
+        "source": "src/app/globals.css"
+      }
+    },
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [
+      "primitives"
+    ],
+    "preferredPrimitives": [
+      "radix-ui"
+    ],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    {
+      "date": "2026-10-24",
+      "decision": "Dark deep-tech console: surfaces #020617→#0A192F, cyan #00F2FE primary signal, indigo #818CF8/#6366F1 secondary, Geist + Geist Mono numerics, single glass .panel surface, split-pane views (control rail + workspace), motion via motion/react with reduced-motion respected, no hover scaling on data cells.",
+      "source": "user request"
+    },
+    {
+      "date": "2026-10-24",
+      "decision": "Replaces the dark deep-tech direction. Light, friendly style inspired by a user-supplied reference: pale-sky canvas #EAF3FE, white 22px-radius cards with soft blue shadows, single primary blue #2563EB, Plus Jakarta Sans, left icon rail (bottom tab bar on phones), sticky right sky-gradient panel with enzyme profile, controls and original flat SVG illustrations, pill buttons (Load/Loaded).",
+      "source": "user request with reference image"
+    }
+  ],
+  "evidence": [
+    {
+      "fact": "components.installed",
+      "source": "src/components/ui"
+    },
+    {
+      "fact": "design.colorMode:light",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "design.tokens",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "project.stack:nextjs",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:react",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:shadcn",
+      "source": "components.json"
+    },
+    {
+      "fact": "project.stack:tailwind-v4",
+      "source": "package.json"
+    }
+  ],
+  "generatedAt": "2026-10-24T14:23:39.197Z"
+}

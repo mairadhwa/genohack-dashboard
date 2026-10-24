@@ -1,0 +1,974 @@
+[
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "pH": 4.5,
+  "yield_pct": 50.62885165051294,
+  "harvest_h": 62.22074024674892,
+  "gos_g_L": 202.51540660205177,
+  "productivity_g_L_h": 3.2547894126449797
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "pH": 5,
+  "yield_pct": 53.44363148021421,
+  "harvest_h": 36.54551517172391,
+  "gos_g_L": 213.77452592085683,
+  "productivity_g_L_h": 5.849542000334393
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "pH": 5.5,
+  "yield_pct": 55.00056426862348,
+  "harvest_h": 26.608869623207738,
+  "gos_g_L": 220.00225707449388,
+  "productivity_g_L_h": 8.268004623639186
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "pH": 6,
+  "yield_pct": 55.497798748031926,
+  "harvest_h": 23.941313771257086,
+  "gos_g_L": 221.9911949921277,
+  "productivity_g_L_h": 9.272306320075083
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "pH": 6.5,
+  "yield_pct": 55.00056426862348,
+  "harvest_h": 26.608869623207738,
+  "gos_g_L": 220.00225707449388,
+  "productivity_g_L_h": 8.268004623639186
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "pH": 4.5,
+  "yield_pct": 51.85198906364724,
+  "harvest_h": 49.08302767589197,
+  "gos_g_L": 207.40795625458898,
+  "productivity_g_L_h": 4.2256553043988605
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "pH": 5,
+  "yield_pct": 54.550437257398976,
+  "harvest_h": 28.67622540846949,
+  "gos_g_L": 218.2017490295959,
+  "productivity_g_L_h": 7.609151689997187
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "pH": 5.5,
+  "yield_pct": 56.03853502888253,
+  "harvest_h": 20.806935645215074,
+  "gos_g_L": 224.15414011553014,
+  "productivity_g_L_h": 10.773049137924277
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "pH": 6,
+  "yield_pct": 56.513155662892835,
+  "harvest_h": 18.73957985995332,
+  "gos_g_L": 226.0526226515713,
+  "productivity_g_L_h": 12.062843689182603
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "pH": 6.5,
+  "yield_pct": 56.03853502888253,
+  "harvest_h": 20.806935645215074,
+  "gos_g_L": 224.15414011553014,
+  "productivity_g_L_h": 10.773049137924277
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "pH": 4.5,
+  "yield_pct": 52.99284143311623,
+  "harvest_h": 39.946648882960986,
+  "gos_g_L": 211.97136573246493,
+  "productivity_g_L_h": 5.306361651349436
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "pH": 5,
+  "yield_pct": 55.5788994003899,
+  "harvest_h": 22.940980326775595,
+  "gos_g_L": 222.31559760155963,
+  "productivity_g_L_h": 9.690762750102866
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "pH": 5.5,
+  "yield_pct": 57.00115109602872,
+  "harvest_h": 16.53884628209403,
+  "gos_g_L": 228.0046043841149,
+  "productivity_g_L_h": 13.786004204595981
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "pH": 6,
+  "yield_pct": 57.454224708759284,
+  "harvest_h": 14.871623874624875,
+  "gos_g_L": 229.81689883503714,
+  "productivity_g_L_h": 15.45338295081337
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "pH": 6.5,
+  "yield_pct": 57.00115109602872,
+  "harvest_h": 16.53884628209403,
+  "gos_g_L": 228.0046043841149,
+  "productivity_g_L_h": 13.786004204595981
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "pH": 4.5,
+  "yield_pct": 54.05694600602171,
+  "harvest_h": 34.61153717905969,
+  "gos_g_L": 216.22778402408684,
+  "productivity_g_L_h": 6.247274800464705
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "pH": 5,
+  "yield_pct": 56.53489466391805,
+  "harvest_h": 19.006335445148384,
+  "gos_g_L": 226.1395786556722,
+  "productivity_g_L_h": 11.898115726111595
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "pH": 5.5,
+  "yield_pct": 57.894379507596206,
+  "harvest_h": 13.53784594864955,
+  "gos_g_L": 231.57751803038482,
+  "productivity_g_L_h": 17.105935383574483
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "pH": 6,
+  "yield_pct": 58.32680333487292,
+  "harvest_h": 12.070690230076693,
+  "gos_g_L": 233.3072133394917,
+  "productivity_g_L_h": 19.328406983567284
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "pH": 6.5,
+  "yield_pct": 57.894379507596206,
+  "harvest_h": 13.53784594864955,
+  "gos_g_L": 231.57751803038482,
+  "productivity_g_L_h": 17.105935383574483
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "pH": 4.5,
+  "yield_pct": 55.04965697225796,
+  "harvest_h": 36.345448482827614,
+  "gos_g_L": 220.19862788903183,
+  "productivity_g_L_h": 6.058492523295471
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "pH": 5,
+  "yield_pct": 57.42397828751542,
+  "harvest_h": 17.13904634878293,
+  "gos_g_L": 229.6959131500617,
+  "productivity_g_L_h": 13.401907461810017
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "pH": 5.5,
+  "yield_pct": 58.7235743660892,
+  "harvest_h": 11.737245748582861,
+  "gos_g_L": 234.8942974643568,
+  "productivity_g_L_h": 20.012727218625173
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "pH": 6,
+  "yield_pct": 59.13667797891436,
+  "harvest_h": 10.33677892630877,
+  "gos_g_L": 236.54671191565745,
+  "productivity_g_L_h": 22.88398674306634
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "pH": 6.5,
+  "yield_pct": 58.7235743660892,
+  "harvest_h": 11.737245748582861,
+  "gos_g_L": 234.8942974643568,
+  "productivity_g_L_h": 20.012727218625173
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 4.5,
+  "yield_pct": 52.62754717980904,
+  "harvest_h": 76.95898632877626,
+  "gos_g_L": 263.1377358990452,
+  "productivity_g_L_h": 3.419194410577281
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 5,
+  "yield_pct": 55.24998355949769,
+  "harvest_h": 45.148382794264755,
+  "gos_g_L": 276.2499177974885,
+  "productivity_g_L_h": 6.118711251659291
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 5.5,
+  "yield_pct": 56.69351211036494,
+  "harvest_h": 32.87762587529176,
+  "gos_g_L": 283.4675605518247,
+  "productivity_g_L_h": 8.621898723072235
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 6,
+  "yield_pct": 57.153514721302535,
+  "harvest_h": 29.543181060353454,
+  "gos_g_L": 285.76757360651266,
+  "productivity_g_L_h": 9.67287757613918
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "pH": 6.5,
+  "yield_pct": 56.69351211036494,
+  "harvest_h": 32.87762587529176,
+  "gos_g_L": 283.4675605518247,
+  "productivity_g_L_h": 8.621898723072235
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 4.5,
+  "yield_pct": 53.76915679583531,
+  "harvest_h": 60.95365121707236,
+  "gos_g_L": 268.84578397917653,
+  "productivity_g_L_h": 4.410659224034739
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 5,
+  "yield_pct": 56.27665567219523,
+  "harvest_h": 35.47849283094365,
+  "gos_g_L": 281.38327836097613,
+  "productivity_g_L_h": 7.931094471847437
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 5.5,
+  "yield_pct": 57.653244980082995,
+  "harvest_h": 25.741913971323775,
+  "gos_g_L": 288.26622490041495,
+  "productivity_g_L_h": 11.198321353320523
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 6,
+  "yield_pct": 58.09138641087003,
+  "harvest_h": 23.14104701567189,
+  "gos_g_L": 290.45693205435015,
+  "productivity_g_L_h": 12.55158990246392
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "pH": 6.5,
+  "yield_pct": 57.653244980082995,
+  "harvest_h": 25.741913971323775,
+  "gos_g_L": 288.26622490041495,
+  "productivity_g_L_h": 11.198321353320523
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "pH": 4.5,
+  "yield_pct": 54.831105789558144,
+  "harvest_h": 50.08336112037346,
+  "gos_g_L": 274.15552894779074,
+  "productivity_g_L_h": 5.473984229789776
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "pH": 5,
+  "yield_pct": 57.22850229091625,
+  "harvest_h": 28.54284761587196,
+  "gos_g_L": 286.14251145458127,
+  "productivity_g_L_h": 10.025016259956649
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "pH": 5.5,
+  "yield_pct": 58.54144736466753,
+  "harvest_h": 20.540180060020006,
+  "gos_g_L": 292.70723682333767,
+  "productivity_g_L_h": 14.250470831707625
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "pH": 6,
+  "yield_pct": 58.9588274782126,
+  "harvest_h": 18.40613537845949,
+  "gos_g_L": 294.794137391063,
+  "productivity_g_L_h": 16.016080036880393
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "pH": 6.5,
+  "yield_pct": 58.54144736466753,
+  "harvest_h": 20.540180060020006,
+  "gos_g_L": 292.70723682333767,
+  "productivity_g_L_h": 14.250470831707625
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "pH": 4.5,
+  "yield_pct": 55.81920848783146,
+  "harvest_h": 44.61487162387463,
+  "gos_g_L": 279.0960424391573,
+  "productivity_g_L_h": 6.25567287948455
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "pH": 5,
+  "yield_pct": 58.11145450232327,
+  "harvest_h": 24.008002667555854,
+  "gos_g_L": 290.55727251161636,
+  "productivity_g_L_h": 12.102517503643575
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "pH": 5.5,
+  "yield_pct": 59.36403963584584,
+  "harvest_h": 16.93897965988663,
+  "gos_g_L": 296.82019817922924,
+  "productivity_g_L_h": 17.52290894369111
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "pH": 6,
+  "yield_pct": 59.76188059481965,
+  "harvest_h": 15.13837945981994,
+  "gos_g_L": 298.80940297409825,
+  "productivity_g_L_h": 19.738533029059926
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "pH": 6.5,
+  "yield_pct": 59.36403963584584,
+  "harvest_h": 16.93897965988663,
+  "gos_g_L": 296.82019817922924,
+  "productivity_g_L_h": 17.52290894369111
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "pH": 4.5,
+  "yield_pct": 56.73895434287542,
+  "harvest_h": 54.1513837945982,
+  "gos_g_L": 283.69477171437705,
+  "productivity_g_L_h": 5.238920076178674
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "pH": 5,
+  "yield_pct": 58.931043465840546,
+  "harvest_h": 22.607535845281763,
+  "gos_g_L": 294.65521732920274,
+  "productivity_g_L_h": 13.033495527585234
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "pH": 5.5,
+  "yield_pct": 60.126438406421876,
+  "harvest_h": 15.071690563521175,
+  "gos_g_L": 300.6321920321094,
+  "productivity_g_L_h": 19.94681291823664
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "pH": 6,
+  "yield_pct": 60.50577384078365,
+  "harvest_h": 13.271090363454485,
+  "gos_g_L": 302.52886920391825,
+  "productivity_g_L_h": 22.7960823804661
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "pH": 6.5,
+  "yield_pct": 60.126438406421876,
+  "harvest_h": 15.071690563521175,
+  "gos_g_L": 300.6321920321094,
+  "productivity_g_L_h": 19.94681291823664
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "pH": 4.5,
+  "yield_pct": 54.16043329462488,
+  "harvest_h": 91.63054351450484,
+  "gos_g_L": 324.9625997677493,
+  "productivity_g_L_h": 3.5464440928074237
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "pH": 5,
+  "yield_pct": 56.627712222563495,
+  "harvest_h": 53.68456152050684,
+  "gos_g_L": 339.766273335381,
+  "productivity_g_L_h": 6.328938221942904
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "pH": 5.5,
+  "yield_pct": 57.98100475398137,
+  "harvest_h": 39.07969323107703,
+  "gos_g_L": 347.8860285238882,
+  "productivity_g_L_h": 8.90196415992441
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "pH": 6,
+  "yield_pct": 58.41155767481262,
+  "harvest_h": 35.145048349449816,
+  "gos_g_L": 350.4693460488757,
+  "productivity_g_L_h": 9.972083195451408
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "pH": 6.5,
+  "yield_pct": 57.98100475398137,
+  "harvest_h": 39.07969323107703,
+  "gos_g_L": 347.8860285238882,
+  "productivity_g_L_h": 8.90196415992441
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "pH": 4.5,
+  "yield_pct": 55.23593063184885,
+  "harvest_h": 72.89096365455153,
+  "gos_g_L": 331.4155837910931,
+  "productivity_g_L_h": 4.546730721818336
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "pH": 5,
+  "yield_pct": 57.59054220836533,
+  "harvest_h": 42.28076025341781,
+  "gos_g_L": 345.5432532501919,
+  "productivity_g_L_h": 8.172588458180801
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "pH": 5.5,
+  "yield_pct": 58.87889087459036,
+  "harvest_h": 30.67689229743248,
+  "gos_g_L": 353.2733452475422,
+  "productivity_g_L_h": 11.515943069536727
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "pH": 6,
+  "yield_pct": 59.288340708173884,
+  "harvest_h": 27.542514171390465,
+  "gos_g_L": 355.73004424904326,
+  "productivity_g_L_h": 12.915670734901703
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "pH": 6.5,
+  "yield_pct": 58.87889087459036,
+  "harvest_h": 30.67689229743248,
+  "gos_g_L": 353.2733452475422,
+  "productivity_g_L_h": 11.515943069536727
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "pH": 4.5,
+  "yield_pct": 56.23439796207197,
+  "harvest_h": 60.486828942981,
+  "gos_g_L": 337.4063877724318,
+  "productivity_g_L_h": 5.578179475906961
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "pH": 5,
+  "yield_pct": 58.481704236282795,
+  "harvest_h": 34.21140380126709,
+  "gos_g_L": 350.89022541769674,
+  "productivity_g_L_h": 10.256528128924684
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "pH": 5.5,
+  "yield_pct": 59.70859354782431,
+  "harvest_h": 24.541513837945985,
+  "gos_g_L": 358.25156128694584,
+  "productivity_g_L_h": 14.597777612765631
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "pH": 6,
+  "yield_pct": 60.098127717872494,
+  "harvest_h": 22.007335778592864,
+  "gos_g_L": 360.58876630723495,
+  "productivity_g_L_h": 16.38493500235451
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "pH": 6.5,
+  "yield_pct": 59.70859354782431,
+  "harvest_h": 24.541513837945985,
+  "gos_g_L": 358.25156128694584,
+  "productivity_g_L_h": 14.597777612765631
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "pH": 4.5,
+  "yield_pct": 57.16175977678509,
+  "harvest_h": 55.61853951317106,
+  "gos_g_L": 342.97055866071054,
+  "productivity_g_L_h": 6.166479049301384
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "pH": 5,
+  "yield_pct": 59.307082711103895,
+  "harvest_h": 29.209736578859623,
+  "gos_g_L": 355.8424962666234,
+  "productivity_g_L_h": 12.18232472949319
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "pH": 5.5,
+  "yield_pct": 60.47595954010837,
+  "harvest_h": 20.473491163721242,
+  "gos_g_L": 362.85575724065023,
+  "productivity_g_L_h": 17.723198957079966
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "pH": 6,
+  "yield_pct": 60.84667610028619,
+  "harvest_h": 18.20606868956319,
+  "gos_g_L": 365.08005660171716,
+  "productivity_g_L_h": 20.05265732140201
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "pH": 6.5,
+  "yield_pct": 60.47595954010837,
+  "harvest_h": 20.473491163721242,
+  "gos_g_L": 362.85575724065023,
+  "productivity_g_L_h": 17.723198957079966
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "pH": 4.5,
+  "yield_pct": 58.02354336763778,
+  "harvest_h": 88.82960986995666,
+  "gos_g_L": 348.14126020582665,
+  "productivity_g_L_h": 3.919202850440218
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "pH": 5,
+  "yield_pct": 60.072167240934824,
+  "harvest_h": 28.87629209736579,
+  "gos_g_L": 360.43300344560896,
+  "productivity_g_L_h": 12.481969715166064
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "pH": 5.5,
+  "yield_pct": 61.18630154026139,
+  "harvest_h": 18.672890963654552,
+  "gos_g_L": 367.11780924156835,
+  "productivity_g_L_h": 19.66046981991899
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "pH": 6,
+  "yield_pct": 61.53939715556432,
+  "harvest_h": 16.338779593197735,
+  "gos_g_L": 369.2363829333859,
+  "productivity_g_L_h": 22.598773722800495
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "pH": 6.5,
+  "yield_pct": 61.18630154026139,
+  "harvest_h": 18.672890963654552,
+  "gos_g_L": 367.11780924156835,
+  "productivity_g_L_h": 19.66046981991899
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "pH": 4.5,
+  "yield_pct": 56.407197936302666,
+  "harvest_h": 84.89496498832945,
+  "gos_g_L": 394.85038555411865,
+  "productivity_g_L_h": 4.651045979091916
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "pH": 5,
+  "yield_pct": 58.63566745370381,
+  "harvest_h": 49.149716572190734,
+  "gos_g_L": 410.4496721759267,
+  "productivity_g_L_h": 8.351007916252403
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "pH": 5.5,
+  "yield_pct": 59.851821369766455,
+  "harvest_h": 35.545181727242415,
+  "gos_g_L": 418.9627495883652,
+  "productivity_g_L_h": 11.786766285323708
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "pH": 6,
+  "yield_pct": 60.2378735276658,
+  "harvest_h": 31.94398132710904,
+  "gos_g_L": 421.6651146936606,
+  "productivity_g_L_h": 13.200142786704468
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "pH": 6.5,
+  "yield_pct": 59.851821369766455,
+  "harvest_h": 35.545181727242415,
+  "gos_g_L": 418.9627495883652,
+  "productivity_g_L_h": 11.786766285323708
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 4.5,
+  "yield_pct": 57.35309658206798,
+  "harvest_h": 71.1570523507836,
+  "gos_g_L": 401.4716760744758,
+  "productivity_g_L_h": 5.642050405563977
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 5,
+  "yield_pct": 59.47711607211378,
+  "harvest_h": 39.946648882960986,
+  "gos_g_L": 416.33981250479644,
+  "productivity_g_L_h": 10.422396474973995
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 5.5,
+  "yield_pct": 60.63391110354057,
+  "harvest_h": 28.609536512170724,
+  "gos_g_L": 424.437377724784,
+  "productivity_g_L_h": 14.83552093003062
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 6,
+  "yield_pct": 61.00073319880867,
+  "harvest_h": 25.608536178726244,
+  "gos_g_L": 427.00513239166065,
+  "productivity_g_L_h": 16.674328021387893
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "pH": 6.5,
+  "yield_pct": 60.63391110354057,
+  "harvest_h": 28.609536512170724,
+  "gos_g_L": 424.437377724784,
+  "productivity_g_L_h": 14.83552093003062
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "pH": 4.5,
+  "yield_pct": 58.230413059968846,
+  "harvest_h": 67.82260753584528,
+  "gos_g_L": 407.6128914197819,
+  "productivity_g_L_h": 6.009985552448013
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "pH": 5,
+  "yield_pct": 60.2555465215032,
+  "harvest_h": 34.61153717905969,
+  "gos_g_L": 421.78882565052237,
+  "productivity_g_L_h": 12.18636501084698
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "pH": 5.5,
+  "yield_pct": 61.35642966864636,
+  "harvest_h": 24.07469156385462,
+  "gos_g_L": 429.49500768052457,
+  "productivity_g_L_h": 17.84010426639741
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "pH": 6,
+  "yield_pct": 61.70525636290605,
+  "harvest_h": 21.40713571190397,
+  "gos_g_L": 431.93679454034236,
+  "productivity_g_L_h": 20.177234374244343
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "pH": 6.5,
+  "yield_pct": 61.35642966864636,
+  "harvest_h": 24.07469156385462,
+  "gos_g_L": 429.49500768052457,
+  "productivity_g_L_h": 17.84010426639741
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 85,
+  "pH": 5,
+  "yield_pct": 60.97632144828356,
+  "harvest_h": 36.41213737912638,
+  "gos_g_L": 426.8342501379849,
+  "productivity_g_L_h": 11.722306924577076
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 85,
+  "pH": 5.5,
+  "yield_pct": 62.02459118975591,
+  "harvest_h": 22.674224741580527,
+  "gos_g_L": 434.17213832829134,
+  "productivity_g_L_h": 19.148268277155083
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 85,
+  "pH": 6,
+  "yield_pct": 62.356491731708275,
+  "harvest_h": 19.73991330443481,
+  "gos_g_L": 436.4954421219579,
+  "productivity_g_L_h": 22.112328225063376
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 85,
+  "pH": 6.5,
+  "yield_pct": 62.02459118975591,
+  "harvest_h": 22.674224741580527,
+  "gos_g_L": 434.17213832829134,
+  "productivity_g_L_h": 19.148268277155083
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "pH": 4.5,
+  "yield_pct": 58.27318004830008,
+  "harvest_h": 82.29409803267757,
+  "gos_g_L": 466.1854403864006,
+  "productivity_g_L_h": 5.664870890270726
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "pH": 5,
+  "yield_pct": 60.29345451299907,
+  "harvest_h": 45.81527175725242,
+  "gos_g_L": 482.34763610399256,
+  "productivity_g_L_h": 10.528097239271279
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "pH": 5.5,
+  "yield_pct": 61.39155894487909,
+  "harvest_h": 32.67755918639547,
+  "gos_g_L": 491.1324715590327,
+  "productivity_g_L_h": 15.029655940872845
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "pH": 6,
+  "yield_pct": 61.73952913676764,
+  "harvest_h": 29.276425475158387,
+  "gos_g_L": 493.91623309414115,
+  "productivity_g_L_h": 16.870783406028806
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "pH": 6.5,
+  "yield_pct": 61.39155894487909,
+  "harvest_h": 32.67755918639547,
+  "gos_g_L": 491.1324715590327,
+  "productivity_g_L_h": 15.029655940872845
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "pH": 4.5,
+  "yield_pct": 59.108269309864895,
+  "harvest_h": 81.6272090696899,
+  "gos_g_L": 472.8661544789191,
+  "productivity_g_L_h": 5.792996720924339
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "pH": 5,
+  "yield_pct": 61.0325774289293,
+  "harvest_h": 40.346782260753585,
+  "gos_g_L": 488.2606194314344,
+  "productivity_g_L_h": 12.101599980784064
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "pH": 5.5,
+  "yield_pct": 62.076721141470436,
+  "harvest_h": 27.80926975658553,
+  "gos_g_L": 496.6137691317635,
+  "productivity_g_L_h": 17.85785004347912
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "pH": 6,
+  "yield_pct": 62.407289713595304,
+  "harvest_h": 24.674891630543517,
+  "gos_g_L": 499.25831770876243,
+  "productivity_g_L_h": 20.233455335251058
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "pH": 6.5,
+  "yield_pct": 62.076721141470436,
+  "harvest_h": 27.80926975658553,
+  "gos_g_L": 496.6137691317635,
+  "productivity_g_L_h": 17.85785004347912
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "pH": 5,
+  "yield_pct": 61.7163520905377,
+  "harvest_h": 45.81527175725242,
+  "gos_g_L": 493.7308167243016,
+  "productivity_g_L_h": 10.776555453829552
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "pH": 5.5,
+  "yield_pct": 62.70980381021643,
+  "harvest_h": 27.142380793597866,
+  "gos_g_L": 501.67843048173137,
+  "productivity_g_L_h": 18.48321391909966
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "pH": 6,
+  "yield_pct": 63.02412486051618,
+  "harvest_h": 23.407802600866958,
+  "gos_g_L": 504.19299888412945,
+  "productivity_g_L_h": 21.539527117571282
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "pH": 6.5,
+  "yield_pct": 62.70980381021643,
+  "harvest_h": 27.142380793597866,
+  "gos_g_L": 501.67843048173137,
+  "productivity_g_L_h": 18.48321391909966
+ }
+]

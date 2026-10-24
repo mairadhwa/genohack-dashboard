@@ -1,0 +1,182 @@
+[
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 65,
+  "yield_pct": 53.168630475362136
+ },
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 70,
+  "yield_pct": 54.28728147755877
+ },
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 75,
+  "yield_pct": 55.326957096005735
+ },
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 80,
+  "yield_pct": 56.29402976793971
+ },
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 85,
+  "yield_pct": 57.19350288992187
+ },
+ {
+  "lactose_g_L": 300,
+  "temperature_C": 90,
+  "yield_pct": 58.03039437283525
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 65,
+  "yield_pct": 55.4977987480399
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 70,
+  "yield_pct": 56.513155662854885
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 75,
+  "yield_pct": 57.45422470878403
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 80,
+  "yield_pct": 58.32680333487437
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 85,
+  "yield_pct": 59.13667797893072
+ },
+ {
+  "lactose_g_L": 400,
+  "temperature_C": 90,
+  "yield_pct": 59.88891789857034
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 65,
+  "yield_pct": 57.153514721289454
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 70,
+  "yield_pct": 58.09138641087978
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 75,
+  "yield_pct": 58.958827478213195
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 80,
+  "yield_pct": 59.76188059477998
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 85,
+  "yield_pct": 60.50577384077454
+ },
+ {
+  "lactose_g_L": 500,
+  "temperature_C": 90,
+  "yield_pct": 61.19569962864052
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 65,
+  "yield_pct": 58.411557674807554
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 70,
+  "yield_pct": 59.288340708144105
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 75,
+  "yield_pct": 60.098127717865204
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 80,
+  "yield_pct": 60.84667610018173
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 85,
+  "yield_pct": 61.539397155562945
+ },
+ {
+  "lactose_g_L": 600,
+  "temperature_C": 90,
+  "yield_pct": 62.180998265791544
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 65,
+  "yield_pct": null
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 70,
+  "yield_pct": 60.237873527857545
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 75,
+  "yield_pct": 61.00073319883096
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 80,
+  "yield_pct": 61.70525636290609
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 85,
+  "yield_pct": 62.35649172617167
+ },
+ {
+  "lactose_g_L": 700,
+  "temperature_C": 90,
+  "yield_pct": 62.95920694501734
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 65,
+  "yield_pct": null
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 70,
+  "yield_pct": null
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 75,
+  "yield_pct": 61.73952913624047
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 80,
+  "yield_pct": 62.40728971380943
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 85,
+  "yield_pct": 63.02412486067496
+ },
+ {
+  "lactose_g_L": 800,
+  "temperature_C": 90,
+  "yield_pct": 63.59455470073166
+ }
+]
