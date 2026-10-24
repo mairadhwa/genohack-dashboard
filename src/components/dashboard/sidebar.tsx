@@ -1,14 +1,15 @@
 "use client";
 
 import { motion } from "motion/react";
-import { BookOpenCheck, Database, FileSpreadsheet, FlaskConical, LogOut, type LucideIcon } from "lucide-react";
+import { BookOpenCheck, ClipboardList, Database, FileSpreadsheet, FlaskConical, LogOut, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type View = "sim" | "csv";
+export type View = "sim" | "csv" | "protocol";
 
 const ITEMS: { value: View; label: string; short: string; icon: LucideIcon }[] = [
   { value: "sim", label: "Simulasi", short: "Simulasi", icon: FlaskConical },
   { value: "csv", label: "Analisis CSV", short: "CSV", icon: FileSpreadsheet },
+  { value: "protocol", label: "Protokol penelitian", short: "Protokol", icon: ClipboardList },
 ];
 
 function NavButton({ active, label, icon: Icon, onClick, layout }: { active?: boolean; label: string; icon: LucideIcon; onClick: () => void; layout: "rail" | "bar" }) {

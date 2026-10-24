@@ -38,9 +38,10 @@ const EXPECTED = {
 let ok = true;
 for (const [table, want] of Object.entries(EXPECTED)) {
   const { count, error } = await db.from(table).select("*", { count: "exact", head: true });
-  if (error) {
+  if (error || count === null) {
+    // HEAD requests hide the error body; a null count means the table is missing.
     ok = false;
-    console.log(`  ✗ ${table.padEnd(22)} ${error.message}`);
+    console.log(`  ✗ ${table.padEnd(22)} ${error?.message || "table not found — run supabase/migrations/*_init.sql, then supabase/seed.sql"}`);
   } else {
     const good = want === null || count === want;
     if (!good) ok = false;

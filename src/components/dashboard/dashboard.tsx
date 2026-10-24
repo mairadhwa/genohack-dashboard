@@ -14,6 +14,7 @@ import { DEFAULT_ECON, OpportunityCost, type Economics } from "./opportunity-cos
 import { OperatingWindow } from "./operating-window";
 import { CsvWorkspace } from "./csv-workspace";
 import { CredibilityStrip, ProvenanceContent } from "./credibility";
+import { Protocol } from "./protocol";
 import { Recommendations } from "./recommendations";
 import { SkyPanel } from "./sky-panel";
 import { Sidebar, type View } from "./sidebar";
@@ -158,6 +159,16 @@ export function Dashboard({ user }: { user: DashboardUser }) {
                   <SkyPanel value={cond} onChange={setCond} />
                 </div>
               </div>
+              </motion.div>
+            )}
+
+            {view === "protocol" && (
+              <motion.div key="protocol" {...fadeUp}>
+                <PageHeader
+                  title="Protokol penelitian"
+                  subtitle="Alur kerja dari desain gen sampai produk GOS siap rilis. Bagian B adalah yang disimulasikan dashboard ini."
+                />
+                <Protocol />
               </motion.div>
             )}
 
